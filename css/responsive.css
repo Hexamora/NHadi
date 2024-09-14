@@ -1,0 +1,1194 @@
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    /* General Reset */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+  }
+  
+  body {
+    background-color: #ffffff;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Settings */
+  .navbar {
+    position: fixed;
+    top: 0; /* Position it at the top of the page */
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    z-index: 1000; /* Ensures navbar stays above other content */
+  }
+  
+  .JudulWeb a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 0px;
+  }
+  
+  .Navlink a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: all 0.55s ease-out;
+    border-bottom: solid 2px transparent;
+  }
+  
+  .Navlink a:hover {
+    color: #585858;
+    border-bottom: solid 2px #585858;
+  }
+  
+  /* Main Content Settings */
+  #container {
+    margin-top: 86px;
+    background-color: rgb(20, 20, 20);
+    height: 800px;
+    width: 97%;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 100px black;
+  }
+  
+  .about{
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 470px;
+    width: 50%;
+  }
+  
+  .about h1{
+    margin-top: 120px;
+    color: rgb(201, 201, 201);
+    text-shadow: 0 0 10px white;
+    font-size: 80px;
+  }
+  
+  .about h2{
+    color:rgb(138, 138, 138);
+    font-size: 70px;
+  }
+  
+  .about p{
+    font-size: 25px;
+  }
+  
+  .about h1,h2,p,a{
+    text-align: justify;
+    margin-left: 60px;
+  }
+  
+  .about a{
+    color: rgb(22, 22, 22);
+    border-radius: 2px;
+    text-decoration: none;
+    padding-top: 20px;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgb(71, 71, 71);
+    transition: all .55s ease;
+  }
+  
+  .about a:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(56, 56, 56);
+  }
+  
+  .profile-pic{
+    background-color: rgb(255, 255, 255);
+    margin-top: 85px;
+    margin-left: 150px;
+    width: 30%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(133, 133, 133, 0.673);
+  }
+  
+  .profile-pic img{
+    filter: brightness(80%);
+    border-radius: 5px;
+    margin-left: 14px;
+    margin-top: 15px;
+    width: 95%;
+    height: 88%;
+  }
+  
+  /* Bagian container skills */
+  #container-skills {
+    margin-top: 86px;
+    background-color: rgb(20, 20, 20);
+    height: 800px;
+    width: 97%;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 7px;
+    justify-content: center;
+    box-shadow: 0 0 100px black;
+  }
+  
+  
+  .card1,.card2,.card3,.card4{
+    margin: 40px;
+    min-height: 400px;
+    min-width: 380px;
+    border-radius: 12px;
+    border: solid 2px rgb(38, 38, 38);
+  }
+  
+  .card1{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card1 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card1-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card1-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card1-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card2{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card2 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card2-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card2-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+  }  
+  
+  .card2-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card3{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card3 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card3-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card3-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card3-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card4{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card4 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card4-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card4-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card4-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  
+  /* Bagian Contact */
+  #container-contact{
+    margin-top: 86px;
+    background-color: rgb(20, 20, 20);
+    height: 800px;
+    width: 97%;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 100px black;
+  }
+  
+  .Form-box{
+    background-color: rgb(225, 224, 224);
+    margin-top: 95px;
+    margin-left: 200px;
+    width: 30%;
+    height: 69%;
+    border-radius: 5px;
+    border: solid 2px rgb(65, 65, 65);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.673);
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form label{
+    font-size: 25px;
+  }
+  
+  .form input{
+    width: 505px;
+    height:50px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .form input::placeholder{
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  
+  .Email,#Email{
+    display: none;
+  }
+  
+  .form textarea{
+    width: 505px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .form textarea::placeholder{
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  
+  .form button{
+    margin-top: 12px;
+    font-size: 20px;
+    width: 505px;
+    height: 50px;
+    color: white;
+    background-color: #585858;
+    cursor: pointer;
+    border: solid thin rgb(0, 0, 0);
+    border-radius: 3px;
+    transition: all .55s ease;
+  }
+  
+  .form button:hover{
+    background-color: #8d8c8c;
+  }
+  
+  .Form-box h1{
+    text-align: center;
+  }
+  
+  .contact-text{
+    background-color: rgb(225, 224, 224);
+    margin-left: 270px;
+    margin-top: 95px;
+    width: 30%;
+    height: 69%;
+    border-radius: 5px;
+    border: solid 2px rgb(65, 65, 65);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.673);
+  }
+  
+  .judul-sm{
+    border-radius: 3px;
+    flex-direction: column;
+    background-color: #212121;
+    height: 75px;
+    border-bottom: solid 2px rgb(65, 65, 65);
+  }
+  
+  .judul-sm h1{
+    padding-top: 18px;
+    color: rgb(171, 171, 171);
+    text-align: center;
+  }
+  
+  .SM{
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .SM p{
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .form{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .about{
+    margin-left: 10px;
+    margin-top: -35px;
+    height: 470px;
+    width: 50%;
+  }
+
+   /* Bagian container skills */
+   #container-skills {
+    margin-top: 86px;
+    background-color: rgb(20, 20, 20);
+    height: 1600px;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    border-radius: 7px;
+    justify-content: center;
+    box-shadow: 0 0 100px black;
+  }
+  
+  
+  .card1,.card2,.card3,.card4{
+    margin: 40px;
+    min-height: 400px;
+    min-width: 380px;
+    border-radius: 12px;
+    border: solid 2px rgb(38, 38, 38);
+  }
+  
+  .card1{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card1 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card1-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card1-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card1-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card2{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card2 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card2-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card2-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+  }  
+  
+  .card2-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card3{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card3 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card3-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card3-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card3-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card4{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card4 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 360px;
+    height: 390px;
+  }
+  
+  .card4-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+    background-color: #585858;
+  }
+  
+  .card4-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card4-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }
+
+    /* Bagian Contact */
+    #container-contact{
+      margin-top: 86px;
+      background-color: rgb(20, 20, 20);
+      height: 800px;
+      width: 97%;
+      display: flex;
+      margin-left: 20px;
+      border-radius: 7px;
+      box-shadow: 0 0 100px black;
+    }
+    
+    .Form-box{
+      background-color: rgb(225, 224, 224);
+      margin-top: 130px;
+      margin-left: 30px;
+      width: 35%;
+      height: 69%;
+      border-radius: 5px;
+      border: solid 2px rgb(65, 65, 65);
+      box-shadow: 0 0 100px rgba(0, 0, 0, 0.673);
+    }
+    
+    .form{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    .form label{
+      font-size: 25px;
+    }
+    
+    .form input{
+      width: 290px;
+      height:50px;
+      font-size: 20px;
+      padding: 10px;
+    }
+    
+    .form input::placeholder{
+      font-size: 20px;
+      padding-left: 5px;
+    }
+    
+    .Email,#Email{
+      display: none;
+    }
+    
+    .form textarea{
+      width: 290px;
+      font-size: 20px;
+      padding: 10px;
+    }
+    
+    .form textarea::placeholder{
+      font-size: 20px;
+      padding-left: 5px;
+    }
+    
+    .form button{
+      margin-top: 12px;
+      font-size: 20px;
+      width: 290px;
+      height: 50px;
+      color: white;
+      background-color: #585858;
+      cursor: pointer;
+      border: solid thin rgb(0, 0, 0);
+      border-radius: 3px;
+      transition: all .55s ease;
+    }
+    
+    .form button:hover{
+      background-color: #8d8c8c;
+    }
+    
+    .Form-box h1{
+      text-align: center;
+    }
+    
+    .contact-text{
+      background-color: rgb(225, 224, 224);
+      margin-left: 130px;
+      margin-top: 130px;
+      width: 35%;
+      height: 69%;
+      border-radius: 5px;
+      border: solid 2px rgb(65, 65, 65);
+      box-shadow: 0 0 100px rgba(0, 0, 0, 0.673);
+    }
+    
+    .judul-sm{
+      border-radius: 3px;
+      flex-direction: column;
+      background-color: #212121;
+      height: 75px;
+      border-bottom: solid 2px rgb(65, 65, 65);
+    }
+    
+    .judul-sm h1{
+      padding-top: 18px;
+      color: rgb(171, 171, 171);
+      text-align: center;
+    }
+    
+    .SM{
+      flex-direction: column;
+      margin-top: 30px;
+      width: 100%;
+    }
+    
+    .SM p{
+      margin: 50px;
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    .form{
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+  }
+  
+  /* Layar HP */
+  @media only screen and (max-width: 768px){
+    body{
+      background-color: rgb(255, 255, 255);
+    }
+    
+    .Navlink{
+      display: none;
+    }
+
+    #container {
+      margin-top: 86px;
+      background-color: rgb(20, 20, 20);
+      height: 820px;
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 20px;
+      border-radius: 7px;
+      box-shadow: 0 0 100px black;
+    } 
+
+    .about{
+      margin-left: -30px;
+      margin-top: -90px;
+      height: 470px;
+      width: 100%;
+    }
+    
+    .about h1{
+      margin-top: 120px;
+      color: rgb(201, 201, 201);
+      text-shadow: 0 0 10px white;
+      font-size: 35px;
+    }
+    
+    .about h2{
+      color:rgb(138, 138, 138);
+      font-size: 25px;
+    }
+    
+    .about p{
+      font-size: 12px;
+    }
+    
+    .about h1,h2,p,a{
+      text-align: justify;
+      margin-left: 60px;
+    }
+    
+    .about a{
+      color: rgb(22, 22, 22);
+      border-radius: 2px;
+      text-decoration: none;
+      padding-top: 20px;
+      width: 200px;
+      height: 55px;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      display: block;
+      margin-top: 15px;
+      box-shadow: 0 0 5px rgb(71, 71, 71);
+      transition: all .55s ease;
+    }
+    
+    .about a:hover{
+      background-color: rgb(180, 180, 180);
+      color: rgb(56, 56, 56);
+    }
+
+    .profile-pic {
+      margin-top: 15px;
+      margin-left: 15px;
+      width: 320px;
+      height: 410px;
+    }
+
+    /* Bagian container skills */
+  #container-skills {
+    margin-top: 86px;
+    background-color: rgb(20, 20, 20);
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    border-radius: 7px;
+    justify-content: center;
+    box-shadow: 0 0 100px black;
+  }
+  
+  
+  .card1,.card2,.card3,.card4{
+    margin: 40px;
+    min-height: 400px;
+    min-width: 310px;
+    border-radius: 12px;
+    border: solid 2px rgb(38, 38, 38);
+  }
+  
+  .card1{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card1 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 292px;
+    height: 390px;
+  }
+  
+  .card1-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 292px;
+    height: 250px;
+    background-color: #585858;
+  }
+  
+  .card1-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card1-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card2{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card2 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 292px;
+    height: 390px;
+  }
+  
+  .card2-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 292px;
+    height: 250px;
+    background-color: #585858;
+  }
+  
+  .card2-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+  }  
+  
+  .card2-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card3{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card3 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 292px;
+    height: 390px;
+  }
+  
+  .card3-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 292px;
+    height: 250px;
+    background-color: #585858;
+  }
+  
+  .card3-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card3-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+  
+  .card4{
+    background-color: rgb(33, 32, 32);
+    box-shadow: 0 0 10px white;
+  }
+  
+  .card4 img{
+    filter: brightness(75%);
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: solid 1.5px rgb(27, 26, 26);
+    box-shadow: 0 0 10px black;
+    width: 292px;
+    height: 390px;
+  }
+  
+  .card4-text{
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    width: 292px;
+    height: 250px;
+    background-color: #585858;
+  }
+  
+  .card4-text h1{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    
+  }  
+  
+  .card4-text p{
+    color: white;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+  }  
+
+      /* Bagian Contact */
+      #container-contact{
+        margin-top: 86px;
+        background-color: rgb(20, 20, 20);
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        border-radius: 7px;
+        box-shadow: 0 0 100px black;
+      }
+      
+      .Form-box{
+        background-color: rgb(225, 224, 224);
+        margin-top: 0px;
+        padding-bottom: 10px;
+        margin-left: 9px;
+        width: 95%;
+        height: 380px;
+        border-radius: 5px;
+        border: solid 2px rgb(65, 65, 65);
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0.673);
+      }
+      
+      .form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        display: block;
+      }
+      
+      .form label{
+        font-size: 25px;
+      }
+      
+      .form input{
+        width: 290px;
+        height:50px;
+        font-size: 20px;
+        padding: 10px;
+      }
+      
+      .form input::placeholder{
+        font-size: 20px;
+        padding-left: 5px;
+      }
+      
+      .Email,#Email{
+        display: none;
+      }
+      
+      .form textarea{
+        width: 290px;
+        font-size: 20px;
+        padding: 10px;
+      }
+      
+      .form textarea::placeholder{
+        font-size: 20px;
+        padding-left: 5px;
+      }
+      
+      .form button{
+        margin-top: 12px;
+        font-size: 20px;
+        width: 290px;
+        height: 50px;
+        color: white;
+        background-color: #585858;
+        cursor: pointer;
+        border: solid thin rgb(0, 0, 0);
+        border-radius: 3px;
+        transition: all .55s ease;
+      }
+      
+      .form button:hover{
+        background-color: #8d8c8c;
+      }
+      
+      .Form-box h1{
+        text-align: center;
+      }
+      
+      .contact-text{
+        display: none;
+        background-color: rgb(225, 224, 224);
+        margin-left: 130px;
+        margin-top: 130px;
+        width: 35%;
+        height: 69%;
+        border-radius: 5px;
+        border: solid 2px rgb(65, 65, 65);
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0.673);
+      }
+      
+      .judul-sm{
+        display: none;
+      }
+      
+      .judul-sm h1{
+        display: none;
+        padding-top: 18px;
+        color: rgb(171, 171, 171);
+        text-align: center;
+      }
+      
+      .SM{
+        display: none;
+      }
+      
+      .SM p{
+        display: none;
+        margin: 50px;
+        text-align: center;
+        font-size: 25px;
+      }
+      
+      .form{  
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+    }

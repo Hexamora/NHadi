@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdllhhadi_</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="shortcut icon" href="Images/Icon-Web.png">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="JudulWeb">
+      <a href="index.html">Hadi</a>
+    </div>
+    <div class="Navlink">
+      <a href="#container">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#container-contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div id="container">
+    <div class="profile-pic">
+      <img src="Images/Photo8.jpg" alt="Profile Picture">
+    </div>
+    <div class="about" id="AboutMe">
+      <h1>Hi, i'm Hadi<Br></h1>
+      <h2>I'm a student at SMK Taruna Bangsa.</h2>
+      <br>
+      <p>Halo, saya Abdullah Nur Hadi, seorang anak SMK yang sangat antusias dalam dunia teknologi informasi. Saya memiliki kegemaran yang mendalam terhadap perangkat lunak dan CyberSecurity. <br><br> Saya percaya bahwa teknologi memiliki peran penting dalam membangun masa depan yang inovatif dan inklusif. Saya senang berkolaborasi dalam tim, berbagi pengetahuan, dan terus belajar demi mengikuti perkembangan pesat di bidang IT.</p>
+      <a href="https://instagram.com/abdllhhadi_/" target="_blank"> See More </a>
+    </div>
+  </div>
+
+  <div id="container-skills">
+    <div class="card1" id="skills">
+      <img src="https://i.pinimg.com/564x/f5/5a/1b/f55a1b9da5735bfce763ffc67ca17c79.jpg" alt="">
+      <div class="card1-text">
+        <h1><br>FRONTEND DEV</h1>
+        <p><br><span style="font-weight: 600;">Front End Dev</span>, termasuk skill yang saya miliki, dan skill ini saya dapatkan ketika saya sekolah di SMK Taruna Bangsa. Saya diajarkan hingga mengerti bagaimana Web Design bekerja.</p>
+        <br>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquid voluptates, accusamus fugit necessitatibus veritatis iure? Iste minus quisquam ab mollitia!</p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="https://i.pinimg.com/736x/bd/da/a8/bddaa800e3b5c725883adf34b619d76a.jpg" alt="">
+      <div class="card2-text">
+        <h1><br>CYBER SECURITY</h1>
+        <p><br><span style="font-weight: 600;">Cyber Security</span>, skill ini saya miliki secara otodidak (Belajar Sendiri), dan saya belajar melalui organisasi dan Pembelajaran gratis di online. Dan saya adalah Cyber Security Beginner.</p>
+        <br>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquid voluptates, accusamus fugit necessitatibus veritatis iure? Iste minus quisquam ab mollitia!</p>
+      </div>
+    </div>
+
+    <div class="card3">
+      <img src="https://i.pinimg.com/564x/3f/35/a9/3f35a98d42b9031778a07e6b6e56f9eb.jpg" alt="">
+      <div class="card3-text">
+        <h1><br>HACKING</h1>
+        <p><br>Skill ini saya dapatkan ketika belajar Cyber Security. hacking sudah beberapa kali saya lakukan, namun disini saya praktik dengan cara saya menjadi korban dan saya juga menjadi penyerang.</p>
+        <br>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquid voluptates, accusamus fugit necessitatibus veritatis iure? Iste minus quisquam ab mollitia!</p>
+      </div>
+    </div>
+
+    <div class="card4">
+      <img src="https://i.pinimg.com/736x/93/04/17/930417f2a78ff3cf5dd359742aa31527.jpg" alt="">
+      <div class="card4-text">
+        <h1><br>PRO GAMER</h1>
+        <p><br>Skill gaming yang saya miliki ada di game VALORANT, namun skill saya yang ini terhalang dengan kemampuan komputer yang saya miliki. Karena saya menggunakan Laptop yang tidak biasa untuk gaming.</p>
+        <br>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquid voluptates, accusamus fugit necessitatibus veritatis iure? Iste minus quisquam ab mollitia!</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="container-contact">
+    <div class="contact-text">
+      <div class="judul-sm">
+        <h1>My Social Media</h1>
+      </div>
+
+      <div class="SM">
+        <p>Gmail: hexa1868@gmail.com</p>
+        <p>Instagram: @abdllhhadi_</p>
+        <p>Youtube: @Katozai18</p>
+        <p>Github: @Hexamora</p>
+      </div>
+
+    </div>
+    <div class="Form-box">
+      <div class="judul-sm">
+        <h1>Contact Me</h1>
+      </div>
+      <form class="form" id="contactForm">
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" placeholder="Your Name" required>
+
+        <label for="Message">Message</label>
+        <textarea id="Message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+    </div>
+  </div>
+  
+  
+
+  <script>
+    // Menghubungkan form dengan JavaScript
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Mencegah reload halaman ketika form disubmit
+
+      const webhookURL = "https://discord.com/api/webhooks/1284101357053280418/FQw0UJ8BmoiwTd6yrc9KMN3ke6g0UjCNUZDDWb6plw42bh9c9ZuKaSQ6l6zO952jbgb6"; // Ganti dengan URL Webhook kamu
+
+      const name = document.getElementById('Name').value;
+      const message = document.getElementById('Message').value;
+
+      if (!name || !message) {
+        alert("All fields are required!");
+        return;
+      }
+
+      const payload = {
+        content: `**New Message from Website Contact Form**\n\n**Name:** ${name}\n**Message:** ${message}`
+      };
+
+      fetch(webhookURL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      })
+      .then(response => {
+        if (response.ok) {
+          alert("Message sent successfully!");
+          document.getElementById('Name').value = "";
+          document.getElementById('Message').value = "";
+        } else {
+          alert("Failed to send message.");
+        }
+      })
+      .catch(error => {
+        console.error("Error sending message:", error);
+        alert("Error sending message.");
+      });
+    });
+  </script>
+
+</body>
+</html>
